@@ -1,0 +1,2 @@
+*{box-sizing:border-box;flex-wrap:wrap;margin:0;padding:0}:root{--body-bg-color:#22212c;--text-color:#837e9f;--bg-cards:#302f3d;--bg-techs:#cb92b1;font-size:62.5%}body,html{height:100%}body{background-color:#22212c;background-color:var(--body-bg-color);color:#837e9f;color:var(--text-color );font-family:Merriweather Sans;font-size:1.8rem}::-webkit-scrollbar{background-color:#000;width:1rem}::-webkit-scrollbar-thumb{background-color:rgba(144,0,184,.987);border-radius:1rem}
+/*# sourceMappingURL=main.0e21657b.css.map*/
