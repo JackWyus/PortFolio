@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/PortFolio/static/css/main.69f00608.css",
-    "main.js": "/PortFolio/static/js/main.211cb6a4.js",
+    "main.css": "/PortFolio/static/css/main.d5d1d67a.css",
+    "main.js": "/PortFolio/static/js/main.be915a21.js",
     "static/media/Palhaço.jpg": "/PortFolio/static/media/Palhaço.dc12095544b645fe4019.jpg",
     "index.html": "/PortFolio/index.html",
-    "main.69f00608.css.map": "/PortFolio/static/css/main.69f00608.css.map",
-    "main.211cb6a4.js.map": "/PortFolio/static/js/main.211cb6a4.js.map"
+    "main.d5d1d67a.css.map": "/PortFolio/static/css/main.d5d1d67a.css.map",
+    "main.be915a21.js.map": "/PortFolio/static/js/main.be915a21.js.map"
   },
   "entrypoints": [
-    "static/css/main.69f00608.css",
-    "static/js/main.211cb6a4.js"
+    "static/css/main.d5d1d67a.css",
+    "static/js/main.be915a21.js"
   ]
 }
