@@ -16,7 +16,6 @@ export const Container = styled.div`
     width: 100%;
   }
 
-
   .Container_titulo_Project{
     display: flex;
     align-items: center;
@@ -40,20 +39,37 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     gap: 1rem;
+    
     /* background-color: antiquewhite; */
+    @media(max-width: 400px){
+      gap: 0.5rem;
+      font-size: 1.4rem;
+    }
+  }
+  .icon svg{
+    @media(max-width: 400px){
+      width: 1.5rem;
+      height: 1.5rem;
+    }
   }
 
   #js{
     display: flex;
     align-items: center;
     gap: 1rem;
+    font-size: 1.4rem;
 
     #circleYellow{
-      width: 15px;
-      height: 15px;
-      border: 2px solid ;
+      width: 1.5rem;
+      height: 1.5rem;
+      border: 0.2rem solid ;
       border-radius: 50%;
       background-color: yellow;
+
+        @media(max-width: 400px){
+          width: 1rem;
+          height: 1rem;
+        }
     }
   }
 `

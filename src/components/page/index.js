@@ -15,6 +15,7 @@ export const Aside = styled.aside`
 
 export const Container = styled.div`
   width: 77%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 3rem;

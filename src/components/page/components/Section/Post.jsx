@@ -1,12 +1,30 @@
 import React from 'react'
 import { ContainerPost } from './Post.js'
 import picture from '../../../../img/Palhaço.jpg'
+import axios from "axios";
+import { useState } from 'react';
 
 function Post() {
+  const [user, setUser] = useState({avatarUrl: "" });
+
+  async function getData() {
+    try {
+      const response = await axios.get(
+        "https://api.github.com/users/JackWyus"
+      );
+      setUser({
+        avatarUrl: response.data.avatar_url,
+      });
+    } catch (e) {
+      console.log(e);
+    }
+  }
+  getData();
+
   return (
     <ContainerPost>
       <div className="ContainerPost_img">
-        <img src={picture} />
+        <img src={user.avatarUrl} />
       </div>
 
       <div className="ContainerPost_Contents">
